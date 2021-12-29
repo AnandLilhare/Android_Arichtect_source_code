@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidArchitectures">
         <activity
-            android:name=".MainActivity"
+            android:name=".mvvm.MVVMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvp.MVPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvc.MVCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArchitecturesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
