@@ -1,6 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+
+    id 'kotlin-android-extensions'
+
+    id 'kotlin-kapt'
 }
 
 android {
@@ -30,7 +34,7 @@ android {
         jvmTarget = '1.8'
     }
 }
-  def retrofitVersion = '2.9.0'
+  def retrofitVersion = '2.5.0'
   def rxJavaVersion = '2.0.1'
 dependencies {
 
@@ -41,7 +45,7 @@ dependencies {
     // Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation "com.squareup.retrofit2:adapter-rxjava3:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
 
     // RxJava
     implementation "io.reactivex.rxjava2:rxandroid:$rxJavaVersion"

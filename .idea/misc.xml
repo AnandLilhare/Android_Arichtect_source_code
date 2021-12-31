@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/layout/activity_mvcactivity.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_mvpactivity.xml" value="0.24375" />
         <entry key="app/src/main/res/layout/activity_mvvmactivity.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/row_layout.xml" value="0.1296875" />
       </map>
     </option>
   </component>
